@@ -49,12 +49,11 @@ h1{
   .logo_container img{
       height: 4rem;width: auto;position: relative;top: 1rem;mix-blend-mode:darken;
   }
-  @Media (Max-Width: 600px){
+  @Media (Max-Width: 650px){
     h1{
-     
-        font-size: 8rem;
+        font-size: 6.4rem;
     }
     .logo_container{
-      position: relative;top: 10%;
+      position: relative;top: 5%;
     }
 }
