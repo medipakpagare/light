@@ -54,4 +54,7 @@ h1{
      
         font-size: 8rem;
     }
+    .logo_container{
+      position: relative;top: 10%;
+    }
 }
