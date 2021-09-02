@@ -20,7 +20,7 @@ const colorArray=[
     '#D81B60',
     '#9CCC65',
     'violet',
-    'black',
+    'aquamarine',
     'purple',
     '#6D4C41',
     'maroon',

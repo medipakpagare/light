@@ -40,7 +40,7 @@ P{
   margin: auto;color: rgb(133, 133, 133);font-size: 1.6rem;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 4.8rem;text-align: justify;margin-left: 4rem;margin-right: 10rem;
 }
 h1{
-  font-size: 12.8rem;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-weight: 600;position: absolute;margin:15rem 1rem auto 1rem;color: rgb(34, 34, 34);
+  font-size: 12.8rem;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-weight: 600;position: absolute;margin:15rem 1rem auto 1rem;color: rgb(34, 34, 34);text-transform: capitalize;display: flex;align-items: center;
 
 }
 .logo_container{
@@ -49,3 +49,9 @@ h1{
   .logo_container img{
       height: 4rem;width: auto;position: relative;top: 1rem;mix-blend-mode:darken;
   }
+  @Media (Max-Width: 600px){
+    h1{
+     
+        font-size: 8rem;
+    }
+}
